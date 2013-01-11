@@ -265,6 +265,14 @@
             </intent-filter>
         </activity>
         
+        
+        <activity android:name=".fragment.FragmentPageTabActivity" android:label="@string/page_activity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.UIDOME"/>
+            </intent-filter>
+        </activity>
+        
         <activity android:name=".FlowActivity" android:label="@string/flow_activity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>

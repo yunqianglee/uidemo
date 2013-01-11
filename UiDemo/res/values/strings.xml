@@ -33,6 +33,7 @@
     <string name="text_activity">Text Animation</string>
     <string name="weichat_activity">Share WeiChat</string>
     <string name="fragment_activity">Tab Fragment</string>
+    <string name="page_activity">Tab Page Fragment</string>
     <string name="flow_activity">Flow Info</string>
     
     

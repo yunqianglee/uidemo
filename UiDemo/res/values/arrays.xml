@@ -19,4 +19,19 @@
 		<item>http://list.image.baidu.com/t/image_category/galleryimg/funny/funnything/gao_xsg.jpg</item>
 		<item>http://list.image.baidu.com/t/image_category/galleryimg/funny/funnycartoon/la_bxx.jpg</item>
     </string-array>
+    
+    <!-- fragment setting -->
+    <string-array name="setting_items">
+        <item>用户信息</item>
+        <item>分享</item>
+        <item>意见反馈</item>
+        <item>版本更新</item>
+        <item>了解我们</item>
+        <item>用户信息</item>
+        <item>分享</item>
+        <item>意见反馈</item>
+        <item>版本更新</item>
+        <item>了解我们</item>
+        <item>退出</item>
+    </string-array>
 </resources>

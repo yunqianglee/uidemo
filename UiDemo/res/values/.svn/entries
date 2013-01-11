@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   name=""
+   repos="https://huangsm.googlecode.com/svn"
+   revision="65"
+   last-author="huangsanm@gmail.com"
+   uuid="e5561467-8573-4a0b-e261-b5b6068474ce"
+   url="https://huangsm.googlecode.com/svn/trunk/UiDemo/res/values"
+   committed-rev="64"
+   kind="dir"
+   committed-date="2012-10-26T02:20:47.289839Z"/>
+<entry
+   name="arrays.xml"
+   revision="68"
+   checksum="691dcbbec39d8100b968158a10cba191"
+   last-author="huangsanm@gmail.com"
+   text-time="2013-01-10T02:30:01.241000Z"
+   committed-rev="68"
+   kind="file"
+   committed-date="2013-01-11T06:10:35.834000Z"/>
+<entry
+   name="attrs.xml"
+   revision="66"
+   checksum="aa713739d68617b7a9c6c576d332cd5b"
+   last-author="huangsanm@gmail.com"
+   text-time="2012-11-21T07:38:33.164000Z"
+   committed-rev="66"
+   kind="file"
+   committed-date="2013-01-05T08:12:19.543000Z"/>
+<entry
+   name="colors.xml"
+   revision="66"
+   checksum="9e04ae7b55ad3b910c14bed473d7ffa8"
+   last-author="huangsanm@gmail.com"
+   text-time="2013-01-05T06:14:39.126000Z"
+   committed-rev="66"
+   kind="file"
+   committed-date="2013-01-05T08:12:19.543000Z"/>
+<entry
+   name="dimens.xml"
+   revision="66"
+   checksum="6c0ca5422a64b8521548ca38567d8234"
+   last-author="huangsanm@gmail.com"
+   text-time="2012-12-26T02:06:11.821000Z"
+   committed-rev="66"
+   kind="file"
+   committed-date="2013-01-05T08:12:19.543000Z"/>
+<entry
+   name="strings.xml"
+   revision="68"
+   checksum="02834f612c65edbb2cbbf21cec89d0d8"
+   last-author="huangsanm@gmail.com"
+   committed-rev="68"
+   text-time="2013-01-11T02:45:10.944000Z"
+   kind="file"
+   committed-date="2013-01-11T06:10:35.834000Z"/>
+<entry
+   name="style.xml"
+   revision="67"
+   checksum="4d64aca05ddc939d55f654fcbaaa9aa3"
+   last-author="huangsanm@gmail.com"
+   text-time="2013-01-06T02:43:57.384000Z"
+   committed-rev="67"
+   kind="file"
+   committed-date="2013-01-09T07:27:44.323000Z"/>
+</wc-entries>

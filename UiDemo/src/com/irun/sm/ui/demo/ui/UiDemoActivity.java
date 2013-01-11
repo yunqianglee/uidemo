@@ -5,8 +5,6 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import com.irun.sm.ui.demo.ui.fragment.FragmentTabActivity;
-
 import android.app.ListActivity;
 import android.content.Context;
 import android.content.Intent;
@@ -18,6 +16,9 @@ import android.view.View;
 import android.widget.ListView;
 import android.widget.SimpleAdapter;
 
+import com.irun.sm.ui.demo.ui.fragment.FragmentPageTabActivity;
+import com.irun.sm.ui.demo.utils.ActivityUtils;
+
 public class UiDemoActivity extends ListActivity {
 
 	private Context mContext;
@@ -26,9 +27,12 @@ public class UiDemoActivity extends ListActivity {
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
+		
+		ActivityUtils.requestNotTitleBar(this);
+		
 		mContext = this;
 		
-		Intent i = new Intent(mContext, FragmentTabActivity.class);
+		Intent i = new Intent(mContext, FragmentPageTabActivity.class);
 		startActivity(i);
 		finish();
 		

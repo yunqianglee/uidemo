@@ -22,7 +22,6 @@ public class TrafficStatsAgo {
 	* 获取网络流量信息
 	* 利用读取系统文件的方法来进行获取网络流量
 	* 主要意义在于可以应用于2.2以前的没有提供TrafficStats接口的版本
-	* @Date         2011-8-4
 	*/
 	public static String readInStream(FileInputStream inStream) {
 		try {
