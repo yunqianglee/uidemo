@@ -280,6 +280,13 @@
             </intent-filter>
         </activity>
         
+        <activity android:name=".intent.ContactRecordActivity" android:label="@string/contact_activity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.UIDOME"/>
+            </intent-filter>
+        </activity>
+        
         <!-- <activity android:name=".USBActivity" android:label="@string/usb_activity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>

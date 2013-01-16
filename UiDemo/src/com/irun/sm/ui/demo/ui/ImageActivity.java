@@ -12,10 +12,11 @@ import android.os.AsyncTask;
 import android.os.Bundle;
 import android.view.View;
 import android.view.ViewGroup;
-import android.view.animation.AnimationUtils;
 import android.widget.BaseAdapter;
 import android.widget.GridView;
 import android.widget.ImageView;
+
+import com.irun.sm.ui.demo.view.DownloadImageView;
 
 /***
  * @author huangsm
@@ -63,10 +64,11 @@ public class ImageActivity extends Activity {
 		@Override
 		public View getView(int position, View convertView, ViewGroup parent) {
 			convertView = getLayoutInflater().inflate(R.layout.gridview_item, null);
-			ImageView imageView = (ImageView) convertView.findViewById(R.id.imageview);
-			imageView.setAnimation(AnimationUtils.loadAnimation(mContext, R.anim.push_in));
+			DownloadImageView imageView = (DownloadImageView) convertView.findViewById(R.id.imageview);
+			imageView.loadImage(mArrays[position], R.drawable.ic_launcher);
+			//imageView.setAnimation(AnimationUtils.loadAnimation(mContext, R.anim.push_in));
 			//imageView.setAnimation(AnimationUtils.loadAnimation(mContext, R.anim.push_out));
-			new TestImage(imageView).execute(mArrays[position]);
+			//new TestImage(imageView).execute(mArrays[position]);
 			return convertView;
 		}
 	}

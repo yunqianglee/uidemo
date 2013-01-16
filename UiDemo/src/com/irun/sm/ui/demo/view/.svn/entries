@@ -61,6 +61,15 @@
    kind="file"
    committed-date="2012-06-25T09:55:16.012454Z"/>
 <entry
+   name="DownloadImageView.java"
+   revision="69"
+   checksum="884fdd4a533b8c35512ce48c1b91ab2d"
+   last-author="huangsanm@gmail.com"
+   text-time="2013-01-16T01:53:15.675000Z"
+   committed-rev="69"
+   kind="file"
+   committed-date="2013-01-16T02:27:16.882000Z"/>
+<entry
    name="DragGridView.java"
    checksum="eb9f8621e94171105a112921c6402148"
    last-author="huangsanm@gmail.com"

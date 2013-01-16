@@ -134,7 +134,6 @@ public class FragmentTabActivity extends FragmentActivity {
 						break;
 					case MotionEvent.ACTION_MOVE :
 						final float currentX = event.getX();
-						System.out.println("x:" + (currentX - mPositionX));
 						// 向左边滑动
 						if (currentX - mPositionX <= -MOVE_DISTANCE && !mSlided) {
 							slideOut();
@@ -249,11 +248,16 @@ public class FragmentTabActivity extends FragmentActivity {
 	public static class TabManager implements TabHost.OnTabChangeListener {
 		private final FragmentTabActivity mActivity;
 		// 保存tab
-		private final Map<String, TabInfo> mTabs = new HashMap<String, FragmentTabActivity.TabManager.TabInfo>();
+		private final Map<String, TabInfo> mTabs = new HashMap<String, TabInfo>();
 		private final TabHost mTabHost;
 		private final int mContainerID;
 		private TabInfo mLastTab;
 
+		/**
+		 * @param activity context
+		 * @param tabHost tab
+		 * @param containerID fragment's parent note
+		 */
 		public TabManager(FragmentTabActivity activity, TabHost tabHost,
 				int containerID) {
 			mActivity = activity;

@@ -155,12 +155,13 @@
    committed-date="2013-01-05T08:12:19.543000Z"/>
 <entry
    name="ImageActivity.java"
-   checksum="11a920f3d3f7794386ef058f70780acd"
+   revision="69"
+   checksum="4f10e4af9f57a3dcd13f757afb9df228"
    last-author="huangsanm@gmail.com"
-   committed-rev="52"
-   text-time="2012-09-12T01:20:04.983000Z"
+   committed-rev="69"
+   text-time="2013-01-15T09:01:16.832000Z"
    kind="file"
-   committed-date="2012-09-12T01:20:04.983254Z"/>
+   committed-date="2013-01-16T02:27:16.882000Z"/>
 <entry
    name="LayoutActivity.java"
    checksum="be24777a724c9dfbc1515dc591eab6bb"
@@ -306,13 +307,13 @@
    committed-date="2013-01-05T08:12:19.543000Z"/>
 <entry
    name="UiDemoActivity.java"
-   revision="68"
-   checksum="6fec82ccfab9f47ded887b726f02f560"
+   revision="69"
+   checksum="78ebcbe7c90668cfb806665ce6f3871a"
    last-author="huangsanm@gmail.com"
-   committed-rev="68"
-   text-time="2013-01-11T03:34:31.492000Z"
+   committed-rev="69"
+   text-time="2013-01-16T01:44:34.893000Z"
    kind="file"
-   committed-date="2013-01-11T06:10:35.834000Z"/>
+   committed-date="2013-01-16T02:27:16.882000Z"/>
 <entry
    name="WeiChatActivity.java"
    revision="66"
@@ -340,5 +341,8 @@
    committed-date="2012-08-30T02:38:38.502839Z"/>
 <entry
    name="fragment"
+   kind="dir"/>
+<entry
+   name="intent"
    kind="dir"/>
 </wc-entries>

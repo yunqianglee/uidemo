@@ -11,6 +11,7 @@ import android.graphics.Paint;
 import android.graphics.PorterDuffXfermode;
 import android.graphics.Rect;
 import android.graphics.RectF;
+import android.os.Environment;
 import android.text.TextUtils;
 
 /***
@@ -125,5 +126,13 @@ public class Globals {
 		paint.setXfermode(new PorterDuffXfermode(android.graphics.PorterDuff.Mode.SRC_IN));
 		canvas.drawBitmap(bitmap, rect, rect, paint);
 		return output;
+	}
+	
+	/**
+	 * 是否存在sd卡
+	 * @return
+	 */
+	public static boolean hasSDCard(){
+		return Environment.getExternalStorageState().equals(Environment.MEDIA_MOUNTED);
 	}
 }

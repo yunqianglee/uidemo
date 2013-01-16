@@ -16,7 +16,6 @@ import android.view.View;
 import android.widget.ListView;
 import android.widget.SimpleAdapter;
 
-import com.irun.sm.ui.demo.ui.fragment.FragmentPageTabActivity;
 import com.irun.sm.ui.demo.utils.ActivityUtils;
 
 public class UiDemoActivity extends ListActivity {
@@ -32,23 +31,22 @@ public class UiDemoActivity extends ListActivity {
 		
 		mContext = this;
 		
-		Intent i = new Intent(mContext, FragmentPageTabActivity.class);
+		/*Intent i = new Intent(mContext, ImageActivity.class);
 		startActivity(i);
-		finish();
+		finish();*/
 		
 		mPackageManager = getPackageManager();
 
 		SimpleAdapter adapter = new SimpleAdapter(mContext, getListData(),
 				android.R.layout.simple_list_item_1, new String[] { "title" },
-				new int[] { android.R.id.text1 });
+				new int[] { android.R.id.text1});
 		setListAdapter(adapter);
 		getListView().setTextFilterEnabled(true);
-
 	}
 
 	private List<Map<String, Object>> getListData() {
 		List<Map<String, Object>> data = new ArrayList<Map<String, Object>>();
-		Intent mainIntent = new Intent(Intent.ACTION_MAIN, null);
+		Intent mainIntent = new Intent(Intent.ACTION_MAIN);
 		mainIntent.addCategory("android.intent.category.UIDOME");
 		List<ResolveInfo> list = mPackageManager.queryIntentActivities(mainIntent, 0);
 		final int N = list.size();

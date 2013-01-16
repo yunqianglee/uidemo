@@ -65,12 +65,13 @@
    committed-date="2012-10-26T02:20:47.289839Z"/>
 <entry
    name="Globals.java"
-   checksum="88896e81da9f05b76c8a23743d5244f7"
+   revision="69"
+   checksum="ecf964b0bc72065f646c41bbd36875cd"
    last-author="huangsanm@gmail.com"
-   text-time="2012-07-18T03:12:49.689000Z"
-   committed-rev="30"
+   text-time="2013-01-15T06:59:13.119000Z"
+   committed-rev="69"
    kind="file"
-   committed-date="2012-07-18T03:12:49.689254Z"/>
+   committed-date="2013-01-16T02:27:16.882000Z"/>
 <entry
    name="HttpUtils.java"
    revision="66"
@@ -89,6 +90,15 @@
    text-time="2012-11-12T02:59:02.295000Z"
    kind="file"
    committed-date="2013-01-05T08:12:19.543000Z"/>
+<entry
+   name="ImageTask.java"
+   revision="69"
+   checksum="35f7ec8005707cc2b940c836c74da43d"
+   last-author="huangsanm@gmail.com"
+   text-time="2013-01-16T01:46:48.249000Z"
+   committed-rev="69"
+   kind="file"
+   committed-date="2013-01-16T02:27:16.882000Z"/>
 <entry
    name="JSONUtils.java"
    revision="66"
