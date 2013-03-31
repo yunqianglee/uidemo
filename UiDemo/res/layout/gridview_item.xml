@@ -3,9 +3,10 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical" >
-    
-    <com.irun.sm.ui.demo.view.DownloadImageView 
+
+    <com.irun.sm.ui.demo.view.DownloadImageView
         android:id="@+id/imageview"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content" />
+
 </LinearLayout>

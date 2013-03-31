@@ -3,8 +3,8 @@
     android:id="@+id/label_item"
     android:layout_width="match_parent"
     android:layout_height="32dp"
+    android:background="@android:color/darker_gray"
     android:gravity="center_vertical"
     android:paddingLeft="10dp"
-    android:textSize="18dp"
     android:textColor="@android:color/background_light"
-    android:background="@android:color/darker_gray" />
+    android:textSize="18dp" />

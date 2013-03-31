@@ -3,17 +3,18 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical" >
-    
-    <TextView 
+
+    <TextView
         android:id="@android:id/empty"
-        android:gravity="center"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="没有任何数据哦"/>
+        android:gravity="center"
+        android:text="没有任何数据哦" />
 
-    <ListView 
+    <ListView
         android:id="@android:id/list"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"></ListView>
-    
+        android:layout_height="wrap_content" >
+    </ListView>
+
 </LinearLayout>

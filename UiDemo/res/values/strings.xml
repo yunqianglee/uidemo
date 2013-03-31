@@ -36,13 +36,11 @@
     <string name="page_activity">Tab Page Fragment</string>
     <string name="flow_activity">Flow Info</string>
     <string name="contact_activity">Contact Record</string>
-    
-    
     <string name="text1">Go最初是为了解决Google的问题而开发的</string>
     <string name="text2">要知道Google面临着很多大问题</string>
     <string name="text3">Google的中服务器最主要是C++编写的</string>
     <string name="text4">除此之外还有 很多Java、Python代码</string>
-    
     <string name="title_resource">提示</string>
     <string name="message_resource">请稍等,正在获取数据...</string>
+
 </resources>

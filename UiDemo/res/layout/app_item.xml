@@ -4,16 +4,19 @@
     android:layout_height="match_parent"
     android:orientation="vertical" >
 
-    <ImageView android:id="@+id/imageView"
+    <ImageView
+        android:id="@+id/imageView"
         android:layout_width="48dip"
         android:layout_height="48dip"
-        android:layout_gravity="center_horizontal|center"/>
+        android:layout_gravity="center_horizontal|center" />
 
-    <TextView android:id="@+id/textView"
+    <TextView
+        android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:singleLine="true"
-        android:ellipsize="end"
         android:layout_gravity="center_horizontal|center"
-        android:textColor="@color/white"/>
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:textColor="@color/white" />
+
 </LinearLayout>

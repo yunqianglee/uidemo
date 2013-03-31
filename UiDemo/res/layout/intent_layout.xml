@@ -4,13 +4,12 @@
     android:layout_height="match_parent"
     android:gravity="center_horizontal"
     android:orientation="vertical" >
-    
 
-    <Button 
+    <Button
         android:id="@+id/btn_contact_record"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Contact Record"
-        android:onClick="onClick"/>
-    
+        android:onClick="onClick"
+        android:text="Contact Record" />
+
 </LinearLayout>

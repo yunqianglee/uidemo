@@ -34,8 +34,10 @@
             android:layout_height="wrap_content"
             android:text="T" />
     </LinearLayout>
-    
-    <TextView android:id="@+id/text_label"
+
+    <TextView
+        android:id="@+id/text_label"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content" />
+
 </LinearLayout>

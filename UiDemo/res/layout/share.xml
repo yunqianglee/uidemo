@@ -4,13 +4,16 @@
     android:layout_height="fill_parent"
     android:orientation="vertical" >
 
-    <Button android:id="@+id/btn_share_all"
+    <Button
+        android:id="@+id/btn_share_all"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Share All"/>
+        android:text="Share All" />
 
-    <Button android:id="@+id/btn_share_email"
+    <Button
+        android:id="@+id/btn_share_email"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Share Email"/>
+        android:text="Share Email" />
+
 </LinearLayout>

@@ -3,19 +3,23 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical" >
-    
-    <Button android:id="@+id/ad_layout"
+
+    <Button
+        android:id="@+id/ad_layout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="布局方式"/>
-    
-    <Button android:id="@+id/ad_code"
+        android:text="布局方式" />
+
+    <Button
+        android:id="@+id/ad_code"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="代码方式"/>
-    
-    <Button android:id="@+id/ad_xml"
+        android:text="代码方式" />
+
+    <Button
+        android:id="@+id/ad_xml"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="xml布局方式"/>
+        android:text="xml布局方式" />
+
 </LinearLayout>

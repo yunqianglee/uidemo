@@ -3,12 +3,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical" >
-    
-    <GridView 
+
+    <GridView
         android:id="@+id/gridView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:horizontalSpacing="2dp"
-        android:verticalSpacing="2dp"
-        android:numColumns="3"></GridView>
+        android:numColumns="3"
+        android:verticalSpacing="2dp" >
+    </GridView>
+
 </LinearLayout>

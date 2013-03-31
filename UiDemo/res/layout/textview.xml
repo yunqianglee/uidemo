@@ -4,16 +4,18 @@
     android:layout_height="match_parent"
     android:orientation="vertical" >
 
-    <TextView android:layout_width="wrap_content"
+    <TextView
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:drawableTop="@drawable/ic_launcher"
         android:text="Application"
-        android:textColor="@color/white"/>
-    
+        android:textColor="@color/white" />
+
     <com.irun.sm.ui.demo.view.BubbleTextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:drawableTop="@drawable/ic_launcher"
-        android:textColor="@color/white"
-        android:text="Application"/>
+        android:text="Application"
+        android:textColor="@color/white" />
+
 </LinearLayout>
